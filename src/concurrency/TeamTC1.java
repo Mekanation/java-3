@@ -20,7 +20,7 @@ class TeamTC1 implements Runnable{
         var names = List.of("Mark Bennett", "Aaron White", "Caleb Waters", "Cody Clark", "Justin Cheng", "Kevin Keesee", "Matthew Choat", "Tyler Clements", "Zach Johnson", "Gotham Katta", "John Bozarov", "Korey Brooks","Sarah Bates");
         try {
             for(var n : names){
-                wait(1000);
+                Thread.sleep(1000);
                 System.out.println(Color.getRandomColor() + n);
                 team.add(Color.getRandomColor() + n);
 
