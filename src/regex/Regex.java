@@ -1,7 +1,5 @@
 package regex;
 
-import java.util.Arrays;
-
 class Regex {
     public static void main(String[] args) {
 
@@ -17,7 +15,7 @@ class Regex {
         String[] tekMentors;
 
 
-        // 3. Find all the occurences of any form of 'book' in the following paragraph. use regex to match the occurences and store the count of books in an int.
+        // 3. Find all the occurrences of any form of 'book' in the following paragraph. use regex to match the occurrences and store the count of books in an int.
         
         int bookCount = 0;
         String bookText = "Books are the keys to knowledge.  I didn't like to read books as a child, but in college I started enjoying learning and reading books. You can borrows books from the library, or you can buy them from the bookstore. I'm not sure if I prefer paperback books or hardcover books.  I'm such a nerd that I even like textbooks.  With the advent of technology, you can even buy digital books, such as kindle-books, nook-books, or other e-books. My personal favorite book format are pdf-books, because I don't have to carry so many books around wherever I go.  All the books are on my ipad or laptop.  When I lived abroad, they would give books to students absolutely free.  Free books for a student of knowledge is like a kid in a candy store.  So wipe the dust off of your books, and remember the slogan from 'reading rainbow' : 'Take a look! It's in a book! Reading Rainbow!";
@@ -33,7 +31,7 @@ class Regex {
         //4.c remove the punctuation marks from the notSleepy string.
         String notSleepy; //no punctuation marks should be here.
 
-        //4.d Now replace all the occurences of 'sleepy' with the word 'happy'.  Call the new string happy.  
+        //4.d Now replace all the occurrences of 'sleepy' with the word 'happy'.  Call the new string happy.
 
         String happy;
 

@@ -25,11 +25,6 @@ class TeamTC1 implements Runnable{
                 team.add(Color.getRandomColor() + n);
 
             }
-
-
-//            wait(1000);
-//            System.out.println(Color.getRandomColor() + "Mark Bennett");
-//            team.add(Color.getRandomColor() + "Mark Bennett");
         }catch (InterruptedException e) {
             System.out.println("Something went wrong!");
         }
